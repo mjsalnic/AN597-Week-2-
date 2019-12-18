@@ -172,7 +172,7 @@ Primates
 df <- data.frame(firstName=c("Nitin","Silvy","Ingrid","Claire"), program=c("iSchool","Anthro","Anthro","EEB"), sex=c("M","F","F","F"), yearInProgram=c(1,2,2,3))
 df
 ###Data frame
-df <- read.csv("C:/Users/majo_/Desktop/random-people.csv", stringsAsFactors=FALSE)
+df <- read.csv("C:/Users/majo_/Documents/BU Classes/FALL-2019/AN597 Project Design and Statistics/practice/random-people.csv", stringsAsFactors=FALSE)
 View(df)
 df[,c(1,3,4,11,12)]
 str(df)
